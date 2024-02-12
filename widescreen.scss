@@ -1,0 +1,37 @@
+
+$resolution-zoom: (
+	"1600px": 1.25,
+	"1900px": 1.5,
+	"2200px": 1.75,
+	"2500px": 2,
+	"3000px": 2.5,
+	"4000px": 3
+);
+
+/* Enlarge entire pages */
+@each $key, $scale in $resolution-zoom {
+	@media screen and (min-width: #{$key}) {
+		body{zoom: $scale;}
+	}
+}
+
+/* Enlarge only the main content part instead of the entire page */
+@each $key, $scale in $resolution-zoom {
+	@media screen and (min-width: #{$key}) {
+		#content{zoom: $scale;}
+	}
+}
+
+/* Exclude specific page */
+@each $key, $scale in $resolution-zoom {
+	@media screen and (min-width: #{$key}) {
+		body:not(.home){zoom: $scale;}
+	}
+}
+
+/* Enlarge only when set to full screen */
+@each $key, $scale in $resolution-zoom {
+	@media screen and (min-width: #{$key}) {
+		body:fullscreen{zoom: $scale;}
+	}
+}

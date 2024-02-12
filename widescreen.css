@@ -1,0 +1,142 @@
+/* Enlarge entire pages */
+@media screen and (min-width: 1600px) {
+  body {
+    zoom: 1.25;
+  }
+}
+@media screen and (min-width: 1900px) {
+  body {
+    zoom: 1.5;
+  }
+}
+@media screen and (min-width: 2200px) {
+  body {
+    zoom: 1.75;
+  }
+}
+@media screen and (min-width: 2500px) {
+  body {
+    zoom: 2;
+  }
+}
+@media screen and (min-width: 3000px) {
+  body {
+    zoom: 2.5;
+  }
+}
+@media screen and (min-width: 4000px) {
+  body {
+    zoom: 3;
+  }
+}
+/* Enlarge only the main content part instead of the entire page */
+@media screen and (min-width: 1600px) {
+  #content {
+    zoom: 1.25;
+  }
+}
+@media screen and (min-width: 1900px) {
+  #content {
+    zoom: 1.5;
+  }
+}
+@media screen and (min-width: 2200px) {
+  #content {
+    zoom: 1.75;
+  }
+}
+@media screen and (min-width: 2500px) {
+  #content {
+    zoom: 2;
+  }
+}
+@media screen and (min-width: 3000px) {
+  #content {
+    zoom: 2.5;
+  }
+}
+@media screen and (min-width: 4000px) {
+  #content {
+    zoom: 3;
+  }
+}
+/* Exclude specific page */
+@media screen and (min-width: 1600px) {
+  body:not(.home) {
+    zoom: 1.25;
+  }
+}
+@media screen and (min-width: 1900px) {
+  body:not(.home) {
+    zoom: 1.5;
+  }
+}
+@media screen and (min-width: 2200px) {
+  body:not(.home) {
+    zoom: 1.75;
+  }
+}
+@media screen and (min-width: 2500px) {
+  body:not(.home) {
+    zoom: 2;
+  }
+}
+@media screen and (min-width: 3000px) {
+  body:not(.home) {
+    zoom: 2.5;
+  }
+}
+@media screen and (min-width: 4000px) {
+  body:not(.home) {
+    zoom: 3;
+  }
+}
+/* Enlarge only when set to full screen */
+@media screen and (min-width: 1600px) {
+  body:-webkit-full-screen {
+    zoom: 1.25;
+  }
+  body:fullscreen {
+    zoom: 1.25;
+  }
+}
+@media screen and (min-width: 1900px) {
+  body:-webkit-full-screen {
+    zoom: 1.5;
+  }
+  body:fullscreen {
+    zoom: 1.5;
+  }
+}
+@media screen and (min-width: 2200px) {
+  body:-webkit-full-screen {
+    zoom: 1.75;
+  }
+  body:fullscreen {
+    zoom: 1.75;
+  }
+}
+@media screen and (min-width: 2500px) {
+  body:-webkit-full-screen {
+    zoom: 2;
+  }
+  body:fullscreen {
+    zoom: 2;
+  }
+}
+@media screen and (min-width: 3000px) {
+  body:-webkit-full-screen {
+    zoom: 2.5;
+  }
+  body:fullscreen {
+    zoom: 2.5;
+  }
+}
+@media screen and (min-width: 4000px) {
+  body:-webkit-full-screen {
+    zoom: 3;
+  }
+  body:fullscreen {
+    zoom: 3;
+  }
+}/*# sourceMappingURL=widescreen.css.map */
