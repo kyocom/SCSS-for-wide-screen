@@ -9,4 +9,4 @@ https://github.com/kyocom/SCSS-for-wide-screen/assets/1760426/cf9a1f85-f6bd-4ec8
 
 
 
-This is a proposal for accessible CSS3 using media queries for an aging society.
+This is a proposal for accessible CSS3 using media queries for the aging society.
