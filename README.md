@@ -1,7 +1,7 @@
 # SCSS for wide screen
 
 When viewing a website in a large window, empty space tends to appear on the left and right sides.
-Let's enlarge it instead. Easy to maintain layout, and above all, it will improve visibility for people with presbyopia.
+Let's enlarge the content instead. Easy to maintain layout, and above all, it will improve visibility for people with presbyopia.
 
 
 
